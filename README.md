@@ -1,5 +1,14 @@
-# BMExport
+# json - > Model property 
 
-> json - > Model property 
+> 自动将json转换为Model属性代码，支持自动对齐（强迫症的最爱，不在敲空格了哈）和添加注释（注释是给别人看的哈）
 
 ![](1.gif)
+
+
+
+# 我的计划
+> 计划赶不上变化，你认为有必要的功能均可提给我哈，乐意效劳。也欢迎RP。
+
+- 支持Swift
+- 支持自动生成Model类及h m 文件
+- ...
