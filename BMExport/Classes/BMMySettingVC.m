@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     if (_add) {
         _addButton.state = 1;
     } else {
@@ -41,18 +41,22 @@
 
 - (IBAction)addButtonClick:(id)sender {
     _noAddButton.state = 0;
+    !_block ? : _block(_addButton.state, _alignmentButton.state);
 }
 
 - (IBAction)noAddButtonClick:(id)sender {
     _addButton.state = 0;
+    !_block ? : _block(_addButton.state, _alignmentButton.state);
 }
 
 - (IBAction)alignmentButtonClick:(id)sender {
     _noAlignmentButton.state = 0;
+    !_block ? : _block(_addButton.state, _alignmentButton.state);
 }
 
 - (IBAction)noAlignmentButtonClick:(id)sender {
     _alignmentButton.state = 0;
+    !_block ? : _block(_addButton.state, _alignmentButton.state);
 }
 
 - (IBAction)back:(id)sender {

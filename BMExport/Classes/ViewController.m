@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BMModelManager.h"
 #import "BMMySettingVC.h"
+#import <PINCache/PINCache.h>
 
 @interface ViewController () <NSTextViewDelegate>
 
@@ -16,6 +17,7 @@
 @property (unsafe_unretained) IBOutlet NSTextView *modelTextView;
 @property (nonatomic, assign) BOOL add; ///< <#Description#>
 @property (nonatomic, assign) BOOL alignment; ///< <#Description#>
+@property (nonatomic, strong) PINCache *pinCache; ///< <#Description#>
 
 @end
 
@@ -23,8 +25,21 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    _add = YES;
-    _alignment = YES;
+
+    _pinCache = [[PINCache alloc] initWithName:@"setting"];
+    NSNumber *addNum =  [_pinCache objectForKey:@"add"];
+    if (addNum) {
+        _add = addNum.boolValue;
+    } else {
+        _add = YES;
+    }
+
+    NSNumber *alignmentNum =  [_pinCache objectForKey:@"alignment"];
+    if (alignmentNum) {
+        _alignment = alignmentNum.boolValue;
+    } else {
+        _alignment = YES;
+    }
 }
 
 - (void)textViewDidChangeSelection:(NSNotification *)notification {
@@ -47,6 +62,8 @@
         self.add = add;
         self.alignment = alignment;
         self.jsonTextView.string = self.jsonTextView.string;
+        [_pinCache setObject:@(add) forKey:@"add"];
+        [_pinCache setObject:@(alignment) forKey:@"alignment"];
     };
     [self presentViewControllerAsModalWindow:vc];
 }

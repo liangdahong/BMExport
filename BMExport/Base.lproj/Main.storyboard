@@ -758,8 +758,8 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-VZ-Hnz">
-                                <rect key="frame" x="569" y="348" width="136" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="这里是Model属性代码" id="xNa-zs-zJx">
+                                <rect key="frame" x="558" y="348" width="157" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="这里是Model属性代码 👇" id="xNa-zs-zJx">
                                     <font key="font" size="13" name=".PingFangSC-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -778,6 +778,14 @@
                                     <action selector="settingButtonClick:" target="XfG-lQ-9wD" id="17A-hD-pLu"/>
                                 </connections>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpt-em-zKC">
+                                <rect key="frame" x="373" y="365" width="96" height="25"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="BMExport" id="WwX-f5-mk8">
+                                    <font key="font" metaFont="system" size="21"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5iK-KN-sTN" secondAttribute="trailing" id="66V-on-zAj"/>
@@ -786,9 +794,11 @@
                             <constraint firstItem="d50-Y5-iW2" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="Fyk-uE-yWs"/>
                             <constraint firstAttribute="trailing" secondItem="fwX-bL-Ehf" secondAttribute="trailing" constant="20" id="JNz-Pv-8r0"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="top" secondItem="fwX-bL-Ehf" secondAttribute="bottom" constant="10" id="JSF-oS-pA7"/>
+                            <constraint firstItem="Zpt-em-zKC" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="KKn-MQ-lJQ"/>
                             <constraint firstItem="d50-Y5-iW2" firstAttribute="leading" secondItem="Rdu-id-5ay" secondAttribute="trailing" id="Nb6-jd-Q3g"/>
                             <constraint firstItem="Rdu-id-5ay" firstAttribute="top" secondItem="icQ-57-GN1" secondAttribute="bottom" constant="10" id="V2f-ga-ckS"/>
                             <constraint firstItem="xXI-VZ-Hnz" firstAttribute="centerX" secondItem="5iK-KN-sTN" secondAttribute="centerX" id="W8O-vN-TSi"/>
+                            <constraint firstItem="Zpt-em-zKC" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="10" id="Xeg-tS-p6c"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="leading" secondItem="Rdu-id-5ay" secondAttribute="trailing" constant="20" id="YFM-O3-9RO"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="60" id="ZL6-gl-RgR"/>
                             <constraint firstItem="icQ-57-GN1" firstAttribute="centerX" secondItem="Rdu-id-5ay" secondAttribute="centerX" id="oqu-hH-xsk"/>
@@ -806,7 +816,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1595" y="-451"/>
+            <point key="canvasLocation" x="-1283" y="-446"/>
         </scene>
     </scenes>
 </document>
