@@ -12,6 +12,6 @@ typedef void(^BMModelManagerBlock)(NSString *str);
 
 @interface BMModelManager : NSObject
 
-+ (NSError *)propertyStringWithJson:(NSString *)json clasName:(NSString *)clasName block:(BMModelManagerBlock)block;
++ (NSError *)propertyStringWithJson:(NSString *)json clasName:(NSString *)clasName block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment;
 
 @end

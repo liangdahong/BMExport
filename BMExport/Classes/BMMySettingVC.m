@@ -21,8 +21,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _addButton.state = 1;
-    _alignmentButton.state = 1;
+
+    if (_add) {
+        _addButton.state = 1;
+    } else {
+        _noAddButton.state = 1;
+    }
+    if (_alignment) {
+        _alignmentButton.state = 1;
+    } else {
+        _noAlignmentButton.state = 1;
+    }
 }
 
 - (IBAction)saveButtonClick:(id)sender {

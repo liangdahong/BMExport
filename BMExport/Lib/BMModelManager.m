@@ -10,7 +10,7 @@
 
 @implementation BMModelManager
 
-+ (void)propertyStringWithDict:(NSDictionary *)dict clasName:(NSString *)clasNa block:(BMModelManagerBlock)block {
++ (void)propertyStringWithDict:(NSDictionary *)dict clasName:(NSString *)clasNa block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment {
     NSMutableArray *arr = @[].mutableCopy;
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         NSString *className = [obj className];
@@ -19,12 +19,12 @@
         if ([className containsString:@"Array"]) {
             type1 = @"NSArray <<#type#> *> *";
             type2 = @"strong";
-            [self propertyStringWithObj:obj clasName:key block:block];
+            [self propertyStringWithObj:obj clasName:key block:block add:add alignment:alignment];
         }
         else if ([className containsString:@"Dictionary"]) {
             type1 = @"<#type#> *";
             type2 = @"strong";
-            [self propertyStringWithDict:obj clasName:key block:block];
+            [self propertyStringWithDict:obj clasName:key block:block add:add alignment:alignment];
         }
         else if ([className containsString:@"Number"]) {
             type1 = @"NSInteger ";
@@ -60,30 +60,45 @@
         return;
     }
 
-    __block NSInteger len = 0;
-    [arr enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (obj.length > len) {
-            len = obj.length;
-        }
-    }];
-
-    [arr enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (obj.length < len) {
-            NSInteger l = len - obj.length;
-            NSMutableString *s = [NSMutableString string];
-            [s appendString:obj];
-            while (l--) {
-                [s appendString:@" "];
+    if (alignment) {
+        __block NSInteger len = 0;
+        [arr enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if (obj.length > len) {
+                len = obj.length;
             }
-            [s appendString:@" ///< <#名称#>"];
-            arr[idx] = s;
-        } else {
+        }];
+        
+        [arr enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if (obj.length < len) {
+                NSInteger l = len - obj.length;
+                NSMutableString *s = [NSMutableString string];
+                [s appendString:obj];
+                while (l--) {
+                    [s appendString:@" "];
+                }
+                if (add) {
+                    [s appendString:@" ///< <#名称#>"];
+                }
+                arr[idx] = s;
+            } else {
+                NSMutableString *s = [NSMutableString string];
+                [s appendString:obj];
+                if (add) {
+                    [s appendString:@" ///< <#名称#>"];
+                }
+                arr[idx] = s;
+            }
+        }];
+    } else {
+        [arr enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             NSMutableString *s = [NSMutableString string];
             [s appendString:obj];
-            [s appendString:@" ///< <#名称#>"];
+            if (add) {
+                [s appendString:@" ///< <#名称#>"];
+            }
             arr[idx] = s;
-        }
-    }];
+        }];
+    }
     NSMutableString *modelStr = @"".mutableCopy;
     [modelStr appendFormat:@"@interface %@ : NSObject\n\n",clasNa];
     [arr enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -94,32 +109,39 @@
     !block ? : block(modelStr.copy);
 }
 
-+ (void)propertyStringWithObj:(id)obj clasName:(NSString *)clasNa block:(BMModelManagerBlock)block {
++ (void)propertyStringWithObj:(id)obj clasName:(NSString *)clasNa block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment {
     NSString *className = [obj className];
     if ([className containsString:@"Array"]) {
         NSArray *arr = obj;
         if (arr.count) {
-            [self propertyStringWithObj:arr[0] clasName:clasNa block:block];
+            [self propertyStringWithObj:arr[0] clasName:clasNa block:block add:add alignment:alignment];
         }
     } else if ([className containsString:@"Dictionary"]) {
-        [self propertyStringWithDict:obj clasName:clasNa block:block];
+        [self propertyStringWithDict:obj clasName:clasNa block:block add:add alignment:alignment];
     }
 }
 
-+ (NSError *)propertyStringWithJson:(NSString *)json clasName:(NSString *)clasName block:(BMModelManagerBlock)block {
++ (NSError *)propertyStringWithJson:(NSString *)json clasName:(NSString *)clasName block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment {
     if (!json.length) {
-        return [NSError errorWithDomain:@"json为nil" code:-10010101 userInfo:nil];
+        return [NSError errorWithDomain:@"json为空" code:-10010101 userInfo:nil];
     }
     NSData *data = [json dataUsingEncoding:NSUTF8StringEncoding];
     if (!data) {
-        return [NSError errorWithDomain:@"json非法" code:-10010101 userInfo:nil];
+        return [NSError errorWithDomain:@"未知错误" code:-10010101 userInfo:nil];
     }
     NSError *error = nil;
     NSObject *obj = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
     if (error) {
         return error;
     }
-    [self propertyStringWithObj:obj clasName:clasName block:block];
+    NSMutableArray *arr = @[].mutableCopy;
+    [self propertyStringWithObj:obj clasName:clasName block:^(NSString *str) {
+        for (NSString *s in arr) {
+            if ([str isEqualToString:s])return;
+        }
+        [arr addObject:str];
+        !block ? : block(str);
+    } add:add alignment:alignment];
     return nil;
 }
 
