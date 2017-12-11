@@ -25,7 +25,8 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-
+    _jsonTextView.automaticQuoteSubstitutionEnabled = NO;
+    _modelTextView.automaticQuoteSubstitutionEnabled = NO;
     _pinCache = [[PINCache alloc] initWithName:@"setting"];
     NSNumber *addNum =  [_pinCache objectForKey:@"add"];
     if (addNum) {

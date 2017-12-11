@@ -21,7 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     if (_add) {
         _addButton.state = 1;
     } else {
