@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BMModelManager.h"
 #import "BMMySettingVC.h"
+#import "BMCodeFormattingVC.h"
 #import <PINCache/PINCache.h>
 
 @interface ViewController () <NSTextViewDelegate>
@@ -67,6 +68,10 @@
         [_pinCache setObject:@(alignment) forKey:@"alignment"];
     };
     [self presentViewControllerAsModalWindow:vc];
+}
+
+- (IBAction)codeFormattingClick:(id)sender {
+    [self presentViewControllerAsModalWindow:BMCodeFormattingVC.new];
 }
 
 @end

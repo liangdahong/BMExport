@@ -17,6 +17,8 @@
 		32D0C2051FDA1FCE00E6CAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D0C2031FDA1FCE00E6CAFD /* Main.storyboard */; };
 		32D0C2101FDA1FCE00E6CAFD /* BMExportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D0C20F1FDA1FCE00E6CAFD /* BMExportTests.m */; };
 		32D0C21B1FDA1FCE00E6CAFD /* BMExportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D0C21A1FDA1FCE00E6CAFD /* BMExportUITests.m */; };
+		32E0EFA01FDFA2EA00B2D981 /* BMCodeFormattingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E0EF9E1FDFA2EA00B2D981 /* BMCodeFormattingVC.m */; };
+		32E0EFA11FDFA2EA00B2D981 /* BMCodeFormattingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E0EF9F1FDFA2EA00B2D981 /* BMCodeFormattingVC.xib */; };
 		DE7A389E97ABFB2404140306 /* libPods-BMExport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B550D4FEB79D74AB00CA1086 /* libPods-BMExport.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,9 @@
 		32D0C2161FDA1FCE00E6CAFD /* BMExportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMExportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D0C21A1FDA1FCE00E6CAFD /* BMExportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMExportUITests.m; sourceTree = "<group>"; };
 		32D0C21C1FDA1FCE00E6CAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E0EF9D1FDFA2EA00B2D981 /* BMCodeFormattingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCodeFormattingVC.h; sourceTree = "<group>"; };
+		32E0EF9E1FDFA2EA00B2D981 /* BMCodeFormattingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCodeFormattingVC.m; sourceTree = "<group>"; };
+		32E0EF9F1FDFA2EA00B2D981 /* BMCodeFormattingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMCodeFormattingVC.xib; sourceTree = "<group>"; };
 		5698D163516FA50A12AC366F /* Pods-BMExport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMExport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMExport/Pods-BMExport.debug.xcconfig"; sourceTree = "<group>"; };
 		589CAF0EA12AD6F0E9022063 /* libPods-BMExportTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMExportTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BB303D8A6B53E844A25B25 /* Pods-BMExport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMExport.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMExport/Pods-BMExport.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +123,9 @@
 				325959B11FDA7559000CFF08 /* BMMySettingVC.h */,
 				325959B21FDA7559000CFF08 /* BMMySettingVC.m */,
 				325959B31FDA7559000CFF08 /* BMMySettingVC.xib */,
+				32E0EF9D1FDFA2EA00B2D981 /* BMCodeFormattingVC.h */,
+				32E0EF9E1FDFA2EA00B2D981 /* BMCodeFormattingVC.m */,
+				32E0EF9F1FDFA2EA00B2D981 /* BMCodeFormattingVC.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -315,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D0C2021FDA1FCE00E6CAFD /* Assets.xcassets in Resources */,
+				32E0EFA11FDFA2EA00B2D981 /* BMCodeFormattingVC.xib in Resources */,
 				325959BC1FDA7559000CFF08 /* BMMySettingVC.xib in Resources */,
 				32D0C2051FDA1FCE00E6CAFD /* Main.storyboard in Resources */,
 			);
@@ -394,6 +403,7 @@
 				325959BA1FDA7559000CFF08 /* main.m in Sources */,
 				325959B91FDA7559000CFF08 /* AppDelegate.m in Sources */,
 				325959BE1FDA7559000CFF08 /* BMModelManager.m in Sources */,
+				32E0EFA01FDFA2EA00B2D981 /* BMCodeFormattingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
