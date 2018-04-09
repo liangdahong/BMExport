@@ -10,31 +10,34 @@
 
 @implementation BMModelManager
 
-+ (void)propertyStringWithDict:(NSDictionary *)dict clasName:(NSString *)clasNa block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment {
++ (void)propertyStringWithDict:(NSDictionary *)dict
+                      clasName:(NSString *)clasNa
+                         block:(BMModelManagerBlock)block
+                           add:(BOOL)add
+                     alignment:(BOOL)alignment {
     NSMutableArray *arr = @[].mutableCopy;
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        // 获取 value 的类名称
         NSString *className = [obj className];
-        NSString *type1 = nil;
+        // 定义类型 classType
+        NSString *classType = nil;
+        // 定义修饰词 type2
         NSString *type2 = nil;
+
         if ([className containsString:@"Array"]) {
-            type1 = @"NSArray <<#type#> *> *";
+            classType = @"NSArray <<#type#> *> *";
             type2 = @"strong";
             [self propertyStringWithObj:obj clasName:key block:block add:add alignment:alignment];
-        }
-        else if ([className containsString:@"Dictionary"]) {
-            type1 = @"<#type#> *";
+        } else if ([className containsString:@"Dictionary"]) {
+            classType = @"<#type#> *";
             type2 = @"strong";
             [self propertyStringWithDict:obj clasName:key block:block add:add alignment:alignment];
-        }
-        else if ([className containsString:@"Number"]) {
-            type1 = @"NSInteger ";
+        } else if ([className containsString:@"Number"]) {
+            classType = @"assign";
+        } else if ([className containsString:@"Boolean"]) {
+            classType = @"BOOL ";
             type2 = @"assign";
-        }
-        else if ([className containsString:@"Boolean"]) {
-            type1 = @"BOOL ";
-            type2 = @"assign";
-        }
-        else if ([className containsString:@"String"]) {
+        } else if ([className containsString:@"String"]) {
             if ([obj isEqualToString:@"YES"]
                 || [obj isEqualToString:@"yes"]
                 || [obj isEqualToString:@"NO"]
@@ -43,17 +46,17 @@
                 || [obj isEqualToString:@"TRUE"]
                 || [obj isEqualToString:@"false"]
                 || [obj isEqualToString:@"true"]) {
-                type1 = @"BOOL ";
+                classType = @"BOOL ";
                 type2 = @"assign";
             } else {
-                type1 = @"NSString *";
+                classType = @"NSString *";
                 type2 = @"copy";
             }
         } else {
-            type1 = @"NSObject *";
+            classType = @"NSObject *";
             type2 = @"strong";
         }
-        [arr addObject:[NSString stringWithFormat:@"@property (nonatomic, %@) %@%@;",type2, type1, key]];
+        [arr addObject:[NSString stringWithFormat:@"@property (nonatomic, %@) %@%@;",type2, classType, key]];
     }];
 
     if (!arr.count) {
@@ -109,7 +112,11 @@
     !block ? : block(modelStr.copy);
 }
 
-+ (void)propertyStringWithObj:(id)obj clasName:(NSString *)clasNa block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment {
++ (void)propertyStringWithObj:(id)obj
+                     clasName:(NSString *)clasNa
+                        block:(BMModelManagerBlock)block
+                          add:(BOOL)add
+                    alignment:(BOOL)alignment {
     NSString *className = [obj className];
     if ([className containsString:@"Array"]) {
         NSArray *arr = obj;
@@ -121,7 +128,11 @@
     }
 }
 
-+ (NSError *)propertyStringWithJson:(NSString *)json clasName:(NSString *)clasName block:(BMModelManagerBlock)block add:(BOOL)add alignment:(BOOL)alignment {
++ (NSError *)propertyStringWithJson:(NSString *)json
+                           clasName:(NSString *)clasName
+                              block:(BMModelManagerBlock)block
+                                add:(BOOL)add
+                          alignment:(BOOL)alignment {
     if (!json.length) {
         return [NSError errorWithDomain:@"json为空" code:-10010101 userInfo:nil];
     }
@@ -137,6 +148,7 @@
     NSMutableArray *arr = @[].mutableCopy;
     [self propertyStringWithObj:obj clasName:clasName block:^(NSString *str) {
         for (NSString *s in arr) {
+            // 如果数组中已经存在就返回 
             if ([str isEqualToString:s])return;
         }
         [arr addObject:str];
