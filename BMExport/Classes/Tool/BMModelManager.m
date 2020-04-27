@@ -23,6 +23,7 @@
         NSString *classType = nil;
         // 定义修饰词 type2
         NSString *type2 = nil;
+
         if ([className containsString:@"Array"]) {
             classType = @"NSArray <<#type#> *> *";
             type2 = @"strong";
@@ -80,14 +81,14 @@
                     [s appendString:@" "];
                 }
                 if (add) {
-                    [s appendString:@" ///< <#名称#>"];
+                    [s appendString:@" ///< <#属性注释#>"];
                 }
                 arr[idx] = s;
             } else {
                 NSMutableString *s = [NSMutableString string];
                 [s appendString:obj];
                 if (add) {
-                    [s appendString:@" ///< <#名称#>"];
+                    [s appendString:@" ///< <#属性注释#>"];
                 }
                 arr[idx] = s;
             }
@@ -97,7 +98,7 @@
             NSMutableString *s = [NSMutableString string];
             [s appendString:obj];
             if (add) {
-                [s appendString:@" ///< <#名称#>"];
+                [s appendString:@" ///< <#属性注释#>"];
             }
             arr[idx] = s;
         }];

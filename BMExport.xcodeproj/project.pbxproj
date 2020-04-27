@@ -98,6 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04EFEFB624574151006C9709 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				325959B41FDA7559000CFF08 /* ViewController.h */,
+				325959B51FDA7559000CFF08 /* ViewController.m */,
+				325959B11FDA7559000CFF08 /* BMMySettingVC.h */,
+				325959B21FDA7559000CFF08 /* BMMySettingVC.m */,
+				325959B31FDA7559000CFF08 /* BMMySettingVC.xib */,
+				32E0EF9D1FDFA2EA00B2D981 /* BMCodeFormattingVC.h */,
+				32E0EF9E1FDFA2EA00B2D981 /* BMCodeFormattingVC.m */,
+				32E0EF9F1FDFA2EA00B2D981 /* BMCodeFormattingVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04EFEFB72457415A006C9709 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				325959B71FDA7559000CFF08 /* BMModelManager.h */,
+				325959B81FDA7559000CFF08 /* BMModelManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		1B4E3699FAC98C3262B770CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,25 +144,10 @@
 		325959B01FDA7559000CFF08 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				325959B41FDA7559000CFF08 /* ViewController.h */,
-				325959B51FDA7559000CFF08 /* ViewController.m */,
-				325959B11FDA7559000CFF08 /* BMMySettingVC.h */,
-				325959B21FDA7559000CFF08 /* BMMySettingVC.m */,
-				325959B31FDA7559000CFF08 /* BMMySettingVC.xib */,
-				32E0EF9D1FDFA2EA00B2D981 /* BMCodeFormattingVC.h */,
-				32E0EF9E1FDFA2EA00B2D981 /* BMCodeFormattingVC.m */,
-				32E0EF9F1FDFA2EA00B2D981 /* BMCodeFormattingVC.xib */,
+				04EFEFB72457415A006C9709 /* Tool */,
+				04EFEFB624574151006C9709 /* Controller */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		325959B61FDA7559000CFF08 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				325959B71FDA7559000CFF08 /* BMModelManager.h */,
-				325959B81FDA7559000CFF08 /* BMModelManager.m */,
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		32D0C1EC1FDA1FCE00E6CAFD = {
@@ -169,7 +178,6 @@
 			children = (
 				325959AC1FDA7559000CFF08 /* AppDelegate */,
 				325959B01FDA7559000CFF08 /* Classes */,
-				325959B61FDA7559000CFF08 /* Lib */,
 				32D0C2011FDA1FCE00E6CAFD /* Assets.xcassets */,
 				32D0C2031FDA1FCE00E6CAFD /* Main.storyboard */,
 				32D0C2061FDA1FCE00E6CAFD /* Info.plist */,
