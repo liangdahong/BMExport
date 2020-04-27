@@ -23,7 +23,6 @@
         NSString *classType = nil;
         // 定义修饰词 type2
         NSString *type2 = nil;
-
         if ([className containsString:@"Array"]) {
             classType = @"NSArray <<#type#> *> *";
             type2 = @"strong";
@@ -135,7 +134,7 @@
                                 add:(BOOL)add
                           alignment:(BOOL)alignment {
     if (!json.length) {
-        return [NSError errorWithDomain:@"json为空" code:-10010101 userInfo:nil];
+        return [NSError errorWithDomain:@"JSON 为空" code:-10010101 userInfo:nil];
     }
     NSData *data = [json dataUsingEncoding:NSUTF8StringEncoding];
     if (!data) {
