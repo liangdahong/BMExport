@@ -12,6 +12,10 @@
 - 添加注释占位
 - 属性对齐
 
+# 联系
+- 欢迎 [issues](https://github.com/liangdahong/BMLongPressDragCellCollectionView/issues) 和 [PR](https://github.com/liangdahong/BMLongPressDragCellCollectionView/pulls)
+- 也可以加微信 `liangdahong2014` 交流和学习
+
 # 计划
 
 > 计划赶不上变化，你认为有必要的功能均可提给我哈，乐意效劳，也欢迎 PR 。
