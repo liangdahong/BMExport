@@ -690,18 +690,18 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rdu-id-5ay">
-                                <rect key="frame" x="0.0" y="0.0" width="361" height="340"/>
+                                <rect key="frame" x="0.0" y="30" width="241" height="310"/>
                                 <clipView key="contentView" drawsBackground="NO" id="XyO-1v-xpU">
-                                    <rect key="frame" x="1" y="1" width="344" height="338"/>
+                                    <rect key="frame" x="1" y="1" width="224" height="308"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="fms-EC-1d6">
-                                            <rect key="frame" x="0.0" y="0.0" width="344" height="338"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="224" height="308"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="344" height="338"/>
-                                            <size key="maxSize" width="463" height="10000000"/>
+                                            <size key="minSize" width="224" height="308"/>
+                                            <size key="maxSize" width="464" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <connections>
                                                 <outlet property="delegate" destination="XfG-lQ-9wD" id="8Br-on-wOW"/>
@@ -714,23 +714,23 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="Cic-e2-Age">
-                                    <rect key="frame" x="345" y="1" width="15" height="338"/>
+                                    <rect key="frame" x="225" y="1" width="15" height="308"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iK-KN-sTN">
-                                <rect key="frame" x="381" y="0.0" width="361" height="340"/>
+                                <rect key="frame" x="261" y="30" width="481" height="310"/>
                                 <clipView key="contentView" drawsBackground="NO" id="Pjo-Fh-CMY">
-                                    <rect key="frame" x="1" y="1" width="344" height="338"/>
+                                    <rect key="frame" x="1" y="1" width="464" height="308"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="67C-WO-tSV">
-                                            <rect key="frame" x="0.0" y="0.0" width="344" height="338"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="464" height="308"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="344" height="338"/>
-                                            <size key="maxSize" width="463" height="10000000"/>
+                                            <size key="minSize" width="464" height="308"/>
+                                            <size key="maxSize" width="464" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
                                     </subviews>
@@ -740,28 +740,28 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="qUg-2B-0iJ">
-                                    <rect key="frame" x="345" y="1" width="15" height="338"/>
+                                    <rect key="frame" x="465" y="1" width="15" height="308"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d50-Y5-iW2">
-                                <rect key="frame" x="359" y="186" width="24" height="28"/>
+                                <rect key="frame" x="239" y="190" width="24" height="20"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="→" id="jiT-6r-95M">
-                                    <font key="font" metaFont="system" size="24"/>
+                                    <font key="font" metaFont="system" size="17"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="icQ-57-GN1">
-                                <rect key="frame" x="122" y="350" width="118" height="16"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="请把json拷贝到👇" id="jjc-ZR-Bcs">
-                                    <font key="font" metaFont="system"/>
+                                <rect key="frame" x="56" y="350" width="128" height="16"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="请把JSON拷贝到👇" id="jjc-ZR-Bcs">
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-VZ-Hnz">
-                                <rect key="frame" x="481" y="348" width="161" height="16"/>
+                                <rect key="frame" x="421" y="348" width="161" height="16"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="这里是Model属性代码 👇" id="xNa-zs-zJx">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -793,7 +793,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5iK-KN-sTN" secondAttribute="trailing" constant="100" id="66V-on-zAj"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="leading" secondItem="d50-Y5-iW2" secondAttribute="trailing" id="6fO-6k-3Px"/>
-                            <constraint firstAttribute="bottom" secondItem="5iK-KN-sTN" secondAttribute="bottom" id="CAD-RW-y7e"/>
+                            <constraint firstAttribute="bottom" secondItem="5iK-KN-sTN" secondAttribute="bottom" constant="30" id="CAD-RW-y7e"/>
                             <constraint firstItem="d50-Y5-iW2" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="Fyk-uE-yWs"/>
                             <constraint firstAttribute="trailing" secondItem="fwX-bL-Ehf" secondAttribute="trailing" constant="20" id="JNz-Pv-8r0"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="top" secondItem="fwX-bL-Ehf" secondAttribute="bottom" constant="10" id="JSF-oS-pA7"/>
@@ -807,8 +807,8 @@
                             <constraint firstItem="icQ-57-GN1" firstAttribute="centerX" secondItem="Rdu-id-5ay" secondAttribute="centerX" id="oqu-hH-xsk"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="top" secondItem="xXI-VZ-Hnz" secondAttribute="bottom" constant="8" symbolic="YES" id="rxn-bT-v45"/>
                             <constraint firstItem="Rdu-id-5ay" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="60" id="tBP-e2-LAv"/>
-                            <constraint firstItem="5iK-KN-sTN" firstAttribute="width" secondItem="Rdu-id-5ay" secondAttribute="width" id="vwz-oU-vs1"/>
-                            <constraint firstAttribute="bottom" secondItem="Rdu-id-5ay" secondAttribute="bottom" id="yi8-TX-IBv"/>
+                            <constraint firstItem="5iK-KN-sTN" firstAttribute="width" secondItem="Rdu-id-5ay" secondAttribute="width" multiplier="2:1" id="vwz-oU-vs1"/>
+                            <constraint firstAttribute="bottom" secondItem="Rdu-id-5ay" secondAttribute="bottom" constant="30" id="yi8-TX-IBv"/>
                             <constraint firstItem="Rdu-id-5ay" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="z7t-5U-agW"/>
                         </constraints>
                     </view>
@@ -819,7 +819,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1315" y="-537"/>
+            <point key="canvasLocation" x="-1466" y="-541"/>
         </scene>
     </scenes>
 </document>

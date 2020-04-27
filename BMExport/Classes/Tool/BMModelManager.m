@@ -16,27 +16,26 @@
                            add:(BOOL)add
                      alignment:(BOOL)alignment {
     NSMutableArray *arr = @[].mutableCopy;
-    [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+    [dict enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         // 获取 value 的类名称
         NSString *className = [obj className];
-        // 定义类型 classType
-        NSString *classType = nil;
+        // 定义类型 typeName
+        NSString *typeName = nil;
         // 定义修饰词 type2
         NSString *type2 = nil;
-
         if ([className containsString:@"Array"]) {
-            classType = @"NSArray <<#type#> *> *";
+            typeName = @"NSArray <<#type#> *> *";
             type2 = @"strong";
             [self propertyStringWithObj:obj clasName:key block:block add:add alignment:alignment];
         } else if ([className containsString:@"Dictionary"]) {
-            classType = @"<#type#> *";
+            typeName = @"<#type#> *";
             type2 = @"strong";
             [self propertyStringWithDict:obj clasName:key block:block add:add alignment:alignment];
         } else if ([className containsString:@"Number"]) {
-            classType = @"NSInteger ";
+            typeName = @"NSInteger ";
             type2 = @"assign";
         } else if ([className containsString:@"Boolean"]) {
-            classType = @"BOOL ";
+            typeName = @"BOOL ";
             type2 = @"assign";
         } else if ([className containsString:@"String"]) {
             if ([obj isEqualToString:@"YES"]
@@ -47,17 +46,17 @@
                 || [obj isEqualToString:@"TRUE"]
                 || [obj isEqualToString:@"false"]
                 || [obj isEqualToString:@"true"]) {
-                classType = @"BOOL ";
+                typeName = @"BOOL ";
                 type2 = @"assign";
             } else {
-                classType = @"NSString *";
+                typeName = @"NSString *";
                 type2 = @"copy";
             }
         } else {
-            classType = @"NSObject *";
+            typeName = @"NSObject *";
             type2 = @"strong";
         }
-        [arr addObject:[NSString stringWithFormat:@"@property (nonatomic, %@) %@%@;",type2, classType, key]];
+        [arr addObject:[NSString stringWithFormat:@"@property (nonatomic, %@) %@%@;",type2, typeName, key]];
     }];
 
     if (!arr.count) {
