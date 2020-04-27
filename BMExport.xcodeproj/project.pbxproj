@@ -289,7 +289,6 @@
 				TargetAttributes = {
 					32D0C1F41FDA1FCE00E6CAFD = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8RB35RM424;
 						ProvisioningStyle = Automatic;
 					};
 					32D0C20A1FDA1FCE00E6CAFD = {
@@ -529,9 +528,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8RB35RM424;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BMExport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idhong.BMExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -543,9 +543,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8RB35RM424;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BMExport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idhong.BMExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
