@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04EFEFB524573CE0006C9709 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04EFEFB424573CDF006C9709 /* README.md */; };
 		325959B91FDA7559000CFF08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 325959AE1FDA7559000CFF08 /* AppDelegate.m */; };
 		325959BA1FDA7559000CFF08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 325959AF1FDA7559000CFF08 /* main.m */; };
 		325959BB1FDA7559000CFF08 /* BMMySettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 325959B21FDA7559000CFF08 /* BMMySettingVC.m */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04EFEFB424573CDF006C9709 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10DBD06181B11E3AF338F8C1 /* libPods-BMExportUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMExportUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		325959AD1FDA7559000CFF08 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		325959AE1FDA7559000CFF08 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		32D0C1EC1FDA1FCE00E6CAFD = {
 			isa = PBXGroup;
 			children = (
+				04EFEFB424573CDF006C9709 /* README.md */,
 				32D0C1F71FDA1FCE00E6CAFD /* BMExport */,
 				32D0C20E1FDA1FCE00E6CAFD /* BMExportTests */,
 				32D0C2191FDA1FCE00E6CAFD /* BMExportUITests */,
@@ -274,7 +277,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = ___liangdahong;
+				ORGANIZATIONNAME = "___liangdahong";
 				TargetAttributes = {
 					32D0C1F41FDA1FCE00E6CAFD = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -300,6 +303,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -322,6 +326,7 @@
 			files = (
 				32D0C2021FDA1FCE00E6CAFD /* Assets.xcassets in Resources */,
 				32E0EFA11FDFA2EA00B2D981 /* BMCodeFormattingVC.xib in Resources */,
+				04EFEFB524573CE0006C9709 /* README.md in Resources */,
 				325959BC1FDA7559000CFF08 /* BMMySettingVC.xib in Resources */,
 				32D0C2051FDA1FCE00E6CAFD /* Main.storyboard in Resources */,
 			);
