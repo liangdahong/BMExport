@@ -13,7 +13,7 @@
 - 属性对齐
 
 # 联系
-- 欢迎 [issues](https://github.com/liangdahong/BMLongPressDragCellCollectionView/issues) 和 [PR](https://github.com/liangdahong/BMLongPressDragCellCollectionView/pulls)
+- 欢迎 [issues](https://github.com/liangdahong/BMExport/issues) 和 [PR](https://github.com/liangdahong/BMExport/pulls)
 - 也可以加微信 `liangdahong2014` 交流和学习
 
 # 计划
