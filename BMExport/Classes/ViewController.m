@@ -35,7 +35,6 @@
     } else {
         _add = YES;
     }
-
     NSNumber *alignmentNum =  [_pinCache objectForKey:@"alignment"];
     if (alignmentNum) {
         _alignment = alignmentNum.boolValue;
@@ -70,8 +69,8 @@
     [self presentViewControllerAsModalWindow:vc];
 }
 
-- (IBAction)codeFormattingClick:(id)sender {
-    [self presentViewControllerAsModalWindow:BMCodeFormattingVC.new];
-}
+//- (IBAction)codeFormattingClick:(id)sender {
+//    [self presentViewControllerAsModalWindow:BMCodeFormattingVC.new];
+//}
 
 @end

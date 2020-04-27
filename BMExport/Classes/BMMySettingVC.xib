@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,18 +21,18 @@
             <rect key="frame" x="0.0" y="0.0" width="526" height="531"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhJ-ji-FiX">
-                    <rect key="frame" x="18" y="494" width="84" height="17"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nhJ-ji-FiX">
+                    <rect key="frame" x="18" y="495" width="84" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="是否添加注释" id="aac-96-Hyh">
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rP0-mO-RwG">
-                    <rect key="frame" x="18" y="457" width="84" height="17"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rP0-mO-RwG">
+                    <rect key="frame" x="18" y="459" width="84" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="是否自动对齐" id="cXA-Kn-97h">
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -44,40 +44,40 @@
                     </constraints>
                     <buttonCell key="cell" type="push" title="保存设置" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vuc-EF-JMY">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="saveButtonClick:" target="-2" id="0He-Ff-Y2K"/>
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="aTo-Nx-kH4">
-                    <rect key="frame" x="109" y="456" width="49" height="18"/>
+                    <rect key="frame" x="109" y="458" width="49" height="18"/>
                     <buttonCell key="cell" type="radio" title="对齐" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="6kW-lW-OPs">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="alignmentButtonClick:" target="-2" id="GHZ-kT-qbX"/>
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="G40-K8-xHT">
-                    <rect key="frame" x="165" y="456" width="62" height="18"/>
+                    <rect key="frame" x="165" y="458" width="62" height="18"/>
                     <buttonCell key="cell" type="radio" title="不对齐" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="cjy-bg-U9A">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="noAlignmentButtonClick:" target="-2" id="wt4-bN-PlW"/>
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bEo-47-uvE">
-                    <rect key="frame" x="334" y="13" width="76" height="51"/>
+                    <rect key="frame" x="336" y="13" width="74" height="51"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="mfW-xR-veP"/>
                     </constraints>
                     <buttonCell key="cell" type="push" title="关  闭" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DDm-za-nJ4">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="back:" target="-2" id="em0-8f-zsk"/>
@@ -87,7 +87,7 @@
                     <rect key="frame" x="109" y="494" width="49" height="18"/>
                     <buttonCell key="cell" type="radio" title="添加" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ooM-p0-wSN">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="addButtonClick:" target="-2" id="hA6-QD-i21"/>
@@ -97,7 +97,7 @@
                     <rect key="frame" x="165" y="494" width="62" height="18"/>
                     <buttonCell key="cell" type="radio" title="不添加" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="yyf-yK-FMx">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="noAddButtonClick:" target="-2" id="aBK-O5-vdg"/>
@@ -122,7 +122,7 @@
                 <constraint firstItem="G40-K8-xHT" firstAttribute="leading" secondItem="aTo-Nx-kH4" secondAttribute="trailing" constant="10" id="has-N2-al1"/>
                 <constraint firstItem="Znf-7k-r2Z" firstAttribute="leading" secondItem="bEo-47-uvE" secondAttribute="trailing" constant="20" id="i2l-7G-ssm"/>
             </constraints>
-            <point key="canvasLocation" x="-188" y="-113"/>
+            <point key="canvasLocation" x="-83" y="-125"/>
         </customView>
     </objects>
 </document>

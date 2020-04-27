@@ -33,7 +33,8 @@
             type2 = @"strong";
             [self propertyStringWithDict:obj clasName:key block:block add:add alignment:alignment];
         } else if ([className containsString:@"Number"]) {
-            classType = @"assign";
+            classType = @"NSInteger ";
+            type2 = @"assign";
         } else if ([className containsString:@"Boolean"]) {
             classType = @"BOOL ";
             type2 = @"assign";
@@ -148,8 +149,8 @@
     NSMutableArray *arr = @[].mutableCopy;
     [self propertyStringWithObj:obj clasName:clasName block:^(NSString *str) {
         for (NSString *s in arr) {
-            // 如果数组中已经存在就返回 
-            if ([str isEqualToString:s])return;
+            // 如果数组中已经存在就返回
+            if ([str isEqualToString:s]) return;
         }
         [arr addObject:str];
         !block ? : block(str);

@@ -12,8 +12,8 @@ typedef void(^BMSettingVCBlock)(BOOL add, BOOL alignment);
 
 @interface BMMySettingVC : NSViewController
 
-@property (nonatomic, copy) BMSettingVCBlock block; ///< block
-@property (nonatomic, assign) BOOL add; ///< <#Description#>
-@property (nonatomic, assign) BOOL alignment; ///< <#Description#>
+@property (nonatomic, copy) BMSettingVCBlock block; ///< 修改配置 Block
+@property (nonatomic, assign) BOOL add; ///< 加注释
+@property (nonatomic, assign) BOOL alignment; ///< 是否对齐
 
 @end
