@@ -1,4 +1,4 @@
-# 一个 JSON 转 Objective-C 模型属性的 Mac 小工具。
+# 一个 JSON 转 Objective-C Model 属性的 Mac 小工具。
 
 > 自动将json转换为Model属性代码，支持自动对齐（强迫症的最爱，不在敲空格了哈）和添加注释（注释是给别人看的哈, 自己以后看也轻松）
 
