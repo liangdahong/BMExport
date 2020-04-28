@@ -23,5 +23,5 @@
 - 支持Swift
 - 支持自动生成 Model 类及 h m 文件
 - 按属性类型排序等
-- 其他语言（逃[推荐使用此库，支持多种语言哈](https://github.com/Ahmed-Ali/JSONExport)）
+- 其他语言（ 逃  [推荐使用此库，支持多种语言哈](https://github.com/Ahmed-Ali/JSONExport) ）
 - ...
