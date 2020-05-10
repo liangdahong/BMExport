@@ -14,7 +14,7 @@
 # 联系
 - 欢迎 [issues](https://github.com/liangdahong/BMExport/issues) 和 [PR](https://github.com/liangdahong/BMExport/pulls)
 - 也可以添加如下的微信交流和学习
-- <img width="20%" src="Images/wx.jpg"/> 
+- <img width="20%" src="wx.jpg"/> 
 
 # 计划
 - 支持 `Swift`
