@@ -13,9 +13,7 @@
 
 # 联系
 - 欢迎 [issues](https://github.com/liangdahong/BMExport/issues) 和 [PR](https://github.com/liangdahong/BMExport/pulls)
-- 也可以添加如下的微信交流和学习
-- <img width="20%" src="wx.jpg"/> 
-
+- 也可以添加微信<img width="20%" src="https://user-images.githubusercontent.com/12118567/86319172-72fb9d80-bc66-11ea-8c6e-8127f9e5535f.jpg"/> 进微信交流群。
 # 计划
 - 支持 `Swift`
 - 支持自动生成 `Model` 文件
