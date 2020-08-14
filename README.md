@@ -12,6 +12,7 @@
 - 属性对齐
 - 目前解析 JSON 是独立模块，所以支持其他语言也很简单，只需要编写相关其他语言的特性代码即可。
 - 支持 swift 只需如下代码即可：
+![image](https://user-images.githubusercontent.com/12118567/90214557-78cecc00-de2b-11ea-954a-f022487fb097.png)
 ```OBJC
         switch (obj.propertyType) {
             case BMPropertyTypeInt:
@@ -49,7 +50,7 @@
 ```
 
 - 支持 Objective-C 只需如下代码即可：
-
+![image](https://user-images.githubusercontent.com/12118567/90214567-82f0ca80-de2b-11ea-8265-c4b08817674e.png)
 ```OBJC
         switch (obj.propertyType) {
             case BMPropertyTypeInt:
