@@ -17,11 +17,10 @@
 
 @property (unsafe_unretained) IBOutlet NSTextView *jsonTextView;
 @property (unsafe_unretained) IBOutlet NSTextView *modelTextView;
-@property (nonatomic, assign) BOOL add; ///< <#Description#>
-@property (nonatomic, assign) BOOL alignment; ///< <#Description#>
-@property (nonatomic, strong) PINCache *pinCache; ///< <#Description#>
+@property (nonatomic, assign) BOOL add; ///< 是否添加注释
+@property (nonatomic, assign) BOOL alignment; ///< 是否自动空格补全对齐
+@property (nonatomic, strong) PINCache *pinCache; ///< 缓存
 @property (weak) IBOutlet NSComboBox *comboBox;
-
 
 @end
 

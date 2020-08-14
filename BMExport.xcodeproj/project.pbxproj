@@ -10,11 +10,6 @@
 		05155D3724E61DDC00F866FB /* BMExport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05155D3524E61DDC00F866FB /* BMExport.xcdatamodeld */; };
 		05155D3924E61DDD00F866FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05155D3824E61DDD00F866FB /* Assets.xcassets */; };
 		05155D4A24E61DDE00F866FB /* BMExportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D4924E61DDE00F866FB /* BMExportTests.m */; };
-		05155D6A24E61E3B00F866FB /* BMCodeFormattingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D5A24E61E3B00F866FB /* BMCodeFormattingVC.m */; };
-		05155D6B24E61E3B00F866FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D5B24E61E3B00F866FB /* ViewController.m */; };
-		05155D6C24E61E3B00F866FB /* BMMySettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05155D5C24E61E3B00F866FB /* BMMySettingVC.xib */; };
-		05155D6D24E61E3B00F866FB /* BMCodeFormattingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05155D5E24E61E3B00F866FB /* BMCodeFormattingVC.xib */; };
-		05155D6E24E61E3B00F866FB /* BMMySettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D5F24E61E3B00F866FB /* BMMySettingVC.m */; };
 		05155D6F24E61E3B00F866FB /* BMModelInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D6424E61E3B00F866FB /* BMModelInfoModel.m */; };
 		05155D7124E61E3B00F866FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D6824E61E3B00F866FB /* main.m */; };
 		05155D7224E61E3B00F866FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05155D6924E61E3B00F866FB /* AppDelegate.m */; };
@@ -25,6 +20,11 @@
 		05BFA42424E6384200635225 /* json1.text in Resources */ = {isa = PBXBuildFile; fileRef = 05BFA42024E6384200635225 /* json1.text */; };
 		05BFA42524E6384200635225 /* json3.text in Resources */ = {isa = PBXBuildFile; fileRef = 05BFA42124E6384200635225 /* json3.text */; };
 		05BFA42724E6384200635225 /* json2.text in Resources */ = {isa = PBXBuildFile; fileRef = 05BFA42324E6384200635225 /* json2.text */; };
+		05EAF40224E651660092B0F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF3F924E651660092B0F3 /* ViewController.m */; };
+		05EAF40324E651660092B0F3 /* BMMySettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF3FC24E651660092B0F3 /* BMMySettingVC.m */; };
+		05EAF40424E651660092B0F3 /* BMMySettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05EAF3FD24E651660092B0F3 /* BMMySettingVC.xib */; };
+		05EAF40524E651660092B0F3 /* BMCodeFormattingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF40024E651660092B0F3 /* BMCodeFormattingVC.m */; };
+		05EAF40624E651660092B0F3 /* BMCodeFormattingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05EAF40124E651660092B0F3 /* BMCodeFormattingVC.xib */; };
 		05FD898324E63C77005CEFCB /* BMSwiftModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD898224E63C77005CEFCB /* BMSwiftModelTool.m */; };
 		05FD898924E64406005CEFCB /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FD898824E64406005CEFCB /* Swift.swift */; };
 		183B3066FAC7F4DD262C1383 /* libPods-BMExport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F333F86F6C95CB06233AB93 /* libPods-BMExport.a */; };
@@ -49,14 +49,6 @@
 		05155D4524E61DDE00F866FB /* BMExportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMExportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05155D4924E61DDE00F866FB /* BMExportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMExportTests.m; sourceTree = "<group>"; };
 		05155D4B24E61DDE00F866FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05155D5924E61E3B00F866FB /* BMMySettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMySettingVC.h; sourceTree = "<group>"; };
-		05155D5A24E61E3B00F866FB /* BMCodeFormattingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCodeFormattingVC.m; sourceTree = "<group>"; };
-		05155D5B24E61E3B00F866FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		05155D5C24E61E3B00F866FB /* BMMySettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMMySettingVC.xib; sourceTree = "<group>"; };
-		05155D5D24E61E3B00F866FB /* BMCodeFormattingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCodeFormattingVC.h; sourceTree = "<group>"; };
-		05155D5E24E61E3B00F866FB /* BMCodeFormattingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMCodeFormattingVC.xib; sourceTree = "<group>"; };
-		05155D5F24E61E3B00F866FB /* BMMySettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMySettingVC.m; sourceTree = "<group>"; };
-		05155D6024E61E3B00F866FB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		05155D6224E61E3B00F866FB /* BMModelInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMModelInfoModel.h; sourceTree = "<group>"; };
 		05155D6424E61E3B00F866FB /* BMModelInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMModelInfoModel.m; sourceTree = "<group>"; };
 		05155D6724E61E3B00F866FB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +64,14 @@
 		05BFA42024E6384200635225 /* json1.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = json1.text; sourceTree = "<group>"; };
 		05BFA42124E6384200635225 /* json3.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = json3.text; sourceTree = "<group>"; };
 		05BFA42324E6384200635225 /* json2.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = json2.text; sourceTree = "<group>"; };
+		05EAF3F824E651660092B0F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05EAF3F924E651660092B0F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05EAF3FB24E651660092B0F3 /* BMMySettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMySettingVC.h; sourceTree = "<group>"; };
+		05EAF3FC24E651660092B0F3 /* BMMySettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMySettingVC.m; sourceTree = "<group>"; };
+		05EAF3FD24E651660092B0F3 /* BMMySettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMMySettingVC.xib; sourceTree = "<group>"; };
+		05EAF3FF24E651660092B0F3 /* BMCodeFormattingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCodeFormattingVC.h; sourceTree = "<group>"; };
+		05EAF40024E651660092B0F3 /* BMCodeFormattingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCodeFormattingVC.m; sourceTree = "<group>"; };
+		05EAF40124E651660092B0F3 /* BMCodeFormattingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMCodeFormattingVC.xib; sourceTree = "<group>"; };
 		05FD898124E63C77005CEFCB /* BMSwiftModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMSwiftModelTool.h; sourceTree = "<group>"; };
 		05FD898224E63C77005CEFCB /* BMSwiftModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMSwiftModelTool.m; sourceTree = "<group>"; };
 		05FD898724E64406005CEFCB /* BMExport-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMExport-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -148,24 +148,11 @@
 		05155D5724E61E3B00F866FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				05155D5824E61E3B00F866FB /* Controller */,
+				05EAF3FE24E651660092B0F3 /* CodeFormatting */,
+				05EAF3F724E651660092B0F3 /* Home */,
+				05EAF3FA24E651660092B0F3 /* Setting */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		05155D5824E61E3B00F866FB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				05155D6024E61E3B00F866FB /* ViewController.h */,
-				05155D5B24E61E3B00F866FB /* ViewController.m */,
-				05155D5924E61E3B00F866FB /* BMMySettingVC.h */,
-				05155D5A24E61E3B00F866FB /* BMCodeFormattingVC.m */,
-				05155D5C24E61E3B00F866FB /* BMMySettingVC.xib */,
-				05155D5D24E61E3B00F866FB /* BMCodeFormattingVC.h */,
-				05155D5E24E61E3B00F866FB /* BMCodeFormattingVC.xib */,
-				05155D5F24E61E3B00F866FB /* BMMySettingVC.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		05155D6124E61E3B00F866FB /* Lib */ = {
@@ -226,6 +213,35 @@
 				05BFA41C24E62B9600635225 /* OC */,
 			);
 			path = languages;
+			sourceTree = "<group>";
+		};
+		05EAF3F724E651660092B0F3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				05EAF3F824E651660092B0F3 /* ViewController.h */,
+				05EAF3F924E651660092B0F3 /* ViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		05EAF3FA24E651660092B0F3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				05EAF3FB24E651660092B0F3 /* BMMySettingVC.h */,
+				05EAF3FC24E651660092B0F3 /* BMMySettingVC.m */,
+				05EAF3FD24E651660092B0F3 /* BMMySettingVC.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		05EAF3FE24E651660092B0F3 /* CodeFormatting */ = {
+			isa = PBXGroup;
+			children = (
+				05EAF3FF24E651660092B0F3 /* BMCodeFormattingVC.h */,
+				05EAF40024E651660092B0F3 /* BMCodeFormattingVC.m */,
+				05EAF40124E651660092B0F3 /* BMCodeFormattingVC.xib */,
+			);
+			path = CodeFormatting;
 			sourceTree = "<group>";
 		};
 		05FD898024E63C66005CEFCB /* Swift */ = {
@@ -338,12 +354,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05155D6D24E61E3B00F866FB /* BMCodeFormattingVC.xib in Resources */,
-				05155D6C24E61E3B00F866FB /* BMMySettingVC.xib in Resources */,
 				05BFA42424E6384200635225 /* json1.text in Resources */,
 				05155D3924E61DDD00F866FB /* Assets.xcassets in Resources */,
 				05155D7524E61E4200F866FB /* Main.storyboard in Resources */,
+				05EAF40624E651660092B0F3 /* BMCodeFormattingVC.xib in Resources */,
 				05BFA42724E6384200635225 /* json2.text in Resources */,
+				05EAF40424E651660092B0F3 /* BMMySettingVC.xib in Resources */,
 				05BFA42524E6384200635225 /* json3.text in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,16 +403,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05155D6B24E61E3B00F866FB /* ViewController.m in Sources */,
+				05EAF40324E651660092B0F3 /* BMMySettingVC.m in Sources */,
 				05155D3724E61DDC00F866FB /* BMExport.xcdatamodeld in Sources */,
-				05155D6E24E61E3B00F866FB /* BMMySettingVC.m in Sources */,
 				05155D6F24E61E3B00F866FB /* BMModelInfoModel.m in Sources */,
 				05BFA41F24E62BB800635225 /* BMOCModelTool.m in Sources */,
 				05155D7224E61E3B00F866FB /* AppDelegate.m in Sources */,
+				05EAF40524E651660092B0F3 /* BMCodeFormattingVC.m in Sources */,
+				05EAF40224E651660092B0F3 /* ViewController.m in Sources */,
 				05155D7124E61E3B00F866FB /* main.m in Sources */,
 				05FD898924E64406005CEFCB /* Swift.swift in Sources */,
 				05FD898324E63C77005CEFCB /* BMSwiftModelTool.m in Sources */,
-				05155D6A24E61E3B00F866FB /* BMCodeFormattingVC.m in Sources */,
 				054B3C1024E61EF500EFAF50 /* BMJsonParsingManager.m in Sources */,
 				054B3C1424E623F900EFAF50 /* BMPropertyInfo.m in Sources */,
 			);
