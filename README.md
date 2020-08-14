@@ -4,7 +4,7 @@
 
 - 【点击直接下载 https://github.com/liangdahong/BMExport/raw/master/dmg.dmg 】。
 
-![](1.gif)
+![](https://user-images.githubusercontent.com/12118567/90214199-58ead880-de2a-11ea-814a-ff87765d4bb6.gif)
 
 # 当前功能
 - JSON -> Model 属性代码
