@@ -1,6 +1,6 @@
 # 一个 JSON 转 Model 属性代码的 Mac 小工具，目前支持 Objective-C，Swift class， Swift struct 。
 
-- 【点击直接下载，建议直接编译源码马上体验最新更全功能 https://github.com/liangdahong/BMExport/raw/master/dmg.dmg 】。
+- 【点击直接下载，建议直接编译源码马上体验最新更全功能 https://github.com/liangdahong/BMExport/releases/download/2.0/BMExport2.0.dmg 】。
 
 <img width="80%" src="https://user-images.githubusercontent.com/12118567/90214199-58ead880-de2a-11ea-814a-ff87765d4bb6.gif"/>
 
