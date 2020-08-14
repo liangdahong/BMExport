@@ -1,4 +1,4 @@
-# 一个 JSON 转 Model 属性的 Mac 小工具，目前支持 Objective-C，Swift class, Swift struct 。
+# 一个 JSON 转 Model 属性的 Mac 小工具，目前支持 Objective-C，Swift class， Swift struct 。
 
 > 自动将 JSON 转换为 Model 属性代码，支持自动对齐（强迫症的最爱，不在敲空格了哈）和添加注释（注释是给别人看的哈, 自己以后看也轻松）
 
