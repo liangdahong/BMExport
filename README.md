@@ -1,8 +1,6 @@
-# 一个 JSON 转 Model 属性的 Mac 小工具，目前支持 Objective-C，Swift class， Swift struct 。
+# 一个 JSON 转 Model 属性代码的 Mac 小工具，目前支持 Objective-C，Swift class， Swift struct 。
 
-> 自动将 JSON 转换为 Model 属性代码，支持自动对齐（强迫症的最爱，不在敲空格了哈）和添加注释（注释是给别人看的哈, 自己以后看也轻松）
-
-- 【点击直接下载 https://github.com/liangdahong/BMExport/raw/master/dmg.dmg 】。
+- 【点击直接下载，建议直接编译源码马上体验最新更全功能 https://github.com/liangdahong/BMExport/raw/master/dmg.dmg 】。
 
 <img width="80%" src="https://user-images.githubusercontent.com/12118567/90214199-58ead880-de2a-11ea-814a-ff87765d4bb6.gif"/>
 
