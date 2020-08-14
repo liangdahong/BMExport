@@ -46,32 +46,27 @@
 }
 
 - (void)textViewDidChangeSelection:(NSNotification *)notification {
+    NSError *error = nil;
     if ([self.comboBox.stringValue isEqualToString:@"Objective-C - iOS"]) {
-        NSError *error = [BMOCModelTool propertyStringWithJson:self.jsonTextView.string modelName:@"ModelName" block:^(NSString *ocModelCodeString) {
+        error = [BMOCModelTool propertyStringWithJson:self.jsonTextView.string modelName:@"ModelName" block:^(NSString *ocModelCodeString) {
             self.modelTextView.string = ocModelCodeString;
         } add:_add alignment:_alignment];
-        if (error) {
-            self.modelTextView.string = error.domain;
-        }
-        
     } else if ([self.comboBox.stringValue isEqualToString:@"Swift Class"]) {
-        NSError *error = [BMSwiftModelTool propertyStringWithJson:self.jsonTextView.string
+        error = [BMSwiftModelTool propertyStringWithJson:self.jsonTextView.string
                                                         modelName:@"ModelName"
                                                             block:^(NSString *ocModelCodeString) {
             self.modelTextView.string = ocModelCodeString;
             } swiftModelType:(SwiftModelTypeClass) add:_add alignment:_alignment];
-        if (error) {
-            self.modelTextView.string = error.debugDescription;
-        }
+        
     } else if ([self.comboBox.stringValue isEqualToString:@"Swift Struct"]) {
-        NSError *error = [BMSwiftModelTool propertyStringWithJson:self.jsonTextView.string
+        error = [BMSwiftModelTool propertyStringWithJson:self.jsonTextView.string
                                                         modelName:@"ModelName"
                                                             block:^(NSString *ocModelCodeString) {
             self.modelTextView.string = ocModelCodeString;
         } swiftModelType:(SwiftModelTypeStruct) add:_add alignment:_alignment];
-        if (error) {
-            self.modelTextView.string = error.debugDescription;
-        }
+    }
+    if (error) {
+        self.modelTextView.string = error.debugDescription;
     }
 }
 
