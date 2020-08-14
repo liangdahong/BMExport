@@ -89,8 +89,8 @@
 - 欢迎 [issues](https://github.com/liangdahong/BMExport/issues) 和 [PR](https://github.com/liangdahong/BMExport/pulls)
 - 也可以添加微信<img width="20%" src="https://user-images.githubusercontent.com/12118567/86319172-72fb9d80-bc66-11ea-8c6e-8127f9e5535f.jpg"/> 进微信交流群。
 # 计划
-- 支持自动生成 `Model` 文件
-- 按属性类型排序等
-- 网页版工具
-- 其他语言（ 逃  [推荐使用此库，支持多种语言哈](https://github.com/Ahmed-Ali/JSONExport) ）
+- 支持自动生成 `Model` 文件；
+- 按属性类型排序等；
+- 尝试实现网页版工具；
+- 支持其他语言；
 - 等。
