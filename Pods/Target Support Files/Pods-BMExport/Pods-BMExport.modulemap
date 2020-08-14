@@ -1,0 +1,6 @@
+framework module Pods_BMExport {
+  umbrella header "Pods-BMExport-umbrella.h"
+
+  export *
+  module * { export * }
+}

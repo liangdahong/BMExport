@@ -1,0 +1,271 @@
+{
+  "outerInfo": {
+    "sumGiftNum": 1,
+    "receiveCode": {
+      "state": "used",
+      "code": "qs1231"
+    },
+    "outerOrderInfo": {
+      "payTime": 1488251164821,
+      "outerStatus": "bm12321",
+      "receiveTime": 1488251164821,
+      "consignTime": 1,
+      "createTime": 538927141040,
+      "outerStatusName": "name12312",
+      "refundTime": 1488251164821,
+      "outerCode": "y12412",
+      "buyerMessage": "衣服给要认真地洗好，晾好，不然我打人哦！！！！我咬人哦！！！！我很凶很凶噢",
+      "cancelTime": 0
+    },
+    "gifts": [
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      },
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      },
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      },
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      },
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      },
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      },
+      {
+        "giftPic": {
+          "width": 100,
+          "height": 100,
+          "picUrl": "http://dummyimage.com/100x100"
+        },
+        "giftNum": 123,
+        "sourceType": "source",
+        "giftSku": "sju214",
+        "marketPrice": 1,
+        "giftName": "zp1232",
+        "refundState": 1,
+        "refundPrice": 100,
+        "refundPostage": 10
+      }
+    ],
+    "payInfo": {
+      "paymentTransaction": "zf13213123",
+      "payStyle": "支付宝"
+    },
+    "logisticsInfo": {
+      "logisticsDesc": "\t物流描述",
+      "companyName": "申通快递",
+      "logisticsTime": 538927141040,
+      "opPhone": "13800000000",
+      "expressCode": "s222222222222",
+      "opName": "收衣人"
+    },
+    "receiverInfo": {
+      "countyName": "天河区",
+      "receiverMobile": "13800000000",
+      "countyId": "440106",
+      "receiver": "收货人",
+      "address": "什么什么什么鬼详细地址什么什么什么鬼详细地址什么什么什么鬼详细地址",
+      "cityId": "4401",
+      "villageName": "岳州社区",
+      "villageId": "440106001001",
+      "provinceName": "广东省",
+      "streetName": "五山街道",
+      "cityName": "广州市",
+      "streetId": "440106001",
+      "provinceId": "44"
+    },
+    "outerItemInfo": {
+      "listItemInfo": [
+        {
+          "num": 3,
+          "memberPrice": 104250,
+          "itemId": "sju214",
+          "status": "",
+          "itemName": "我是衣物名称名次名称名称",
+          "itemPic": {
+            "height": 100,
+            "width": 100,
+            "picUrl": "http://dummyimage.com/100x100"
+          },
+          "marketPrice": 1,
+          "itemSku": "sju214",
+          "refundState": -1,
+          "refundPrice": -1,
+          "refundPostage": -1
+        },
+        {
+          "num": 10,
+          "memberPrice": 87442,
+          "itemId": "sju214",
+          "status": "",
+          "itemName": "我是衣物名称名次名称名称",
+          "itemPic": {
+            "height": 100,
+            "width": 100,
+            "picUrl": "http://dummyimage.com/100x100"
+          },
+          "marketPrice": 1,
+          "itemSku": "sju214",
+          "refundState": -1,
+          "refundPrice": -1,
+          "refundPostage": -1
+        },
+        {
+          "num": 6,
+          "memberPrice": 21617,
+          "itemId": "sju214",
+          "status": "",
+          "itemName": "我是衣物名称名次名称名称",
+          "itemPic": {
+            "height": 100,
+            "width": 100,
+            "picUrl": "http://dummyimage.com/100x100"
+          },
+          "marketPrice": 1,
+          "itemSku": "sju214",
+          "refundState": -1,
+          "refundPrice": -1,
+          "refundPostage": -1
+        },
+        {
+          "num": 9,
+          "memberPrice": 90228,
+          "itemId": "sju214",
+          "status": "",
+          "itemName": "我是衣物名称名次名称名称",
+          "itemPic": {
+            "height": 100,
+            "width": 100,
+            "picUrl": "http://dummyimage.com/100x100"
+          },
+          "marketPrice": 1,
+          "itemSku": "sju214",
+          "refundState": -1,
+          "refundPrice": -1,
+          "refundPostage": -1
+        },
+        {
+          "num": 3,
+          "memberPrice": 39970,
+          "itemId": "sju214",
+          "status": "",
+          "itemName": "我是衣物名称名次名称名称",
+          "itemPic": {
+            "height": 100,
+            "width": 100,
+            "picUrl": "http://dummyimage.com/100x100"
+          },
+          "marketPrice": 1,
+          "itemSku": "sju214",
+          "refundState": -1,
+          "refundPrice": -1,
+          "refundPostage": -1
+        }
+      ],
+      "orderPriceInfo": {
+        "postFee": 85841,
+        "totalActivityPrice": 1764,
+        "totalOrderPrice": 4893,
+        "totalPrice": 8316,
+        "totalCouponPrice": 7224
+      },
+      "sumItemNum": 20
+    },
+    "remainPayTime": 1,
+    "deliveryInfo": {
+      "shopCode": "A001",
+      "shopName": "中公教育大厦",
+      "shopAddress": "五山路中公教育大厦",
+      "storeManager": "小朋友",
+      "storeMobile": "13588889999",
+      "tip": "受国家政策及交通管控影响，发货时间可能延迟，感谢理解和支持",
+      "deliveryType": 1,
+      "deliveryTypeName": "送货上门",
+      "sendGoodsTimeType": 1,
+      "sendGoodsTimeTypeName": "近期发货",
+      "delaySendGoodsTime": 158191050500,
+      "storeCode": "A001",
+      "storeName": "中公教育大厦"
+    }
+  },
+  "responseMsg": "请求成功",
+  "isSuccess": true,
+  "responseCode": 0
+}

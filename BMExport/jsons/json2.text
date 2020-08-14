@@ -1,0 +1,98 @@
+{
+  "itemInfo": {
+    "itemId": "cp12345678",
+    "itemDesc": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+    "stock": 1232,
+    "artImgUrls": [
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      },
+      {
+        "width": 100,
+        "picUrl": "http://dummyimage.com/100x100",
+        "height": 100
+      }
+    ],
+    "memberPrice": 19999,
+    "activityList": [
+      {
+        "activityCode": "",
+        "activitySName": "",
+        "activityTypeName": "",
+        "activityType": ""
+      }
+    ],
+    "marketPrice": 9999,
+    "sellPoint": "这里是卖点描述",
+    "isShiiping": 0,
+    "itemName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+    "itemSku": "sku12345",
+    "introImgUrlsInfo": [
+      {
+        "width": 10,
+        "height": 100,
+        "picUrl": "http://dummyimage.com/100x100"
+      },
+      {
+        "width": 10,
+        "height": 100,
+        "picUrl": "http://dummyimage.com/100x100"
+      },
+      {
+        "width": 10,
+        "height": 100,
+        "picUrl": "http://dummyimage.com/100x100"
+      },
+      {
+        "width": 10,
+        "height": 100,
+        "picUrl": "http://dummyimage.com/100x100"
+      }
+    ],
+    "picUrl": {
+      "width": 100,
+      "height": 100,
+      "picUrl": "http://dummyimage.com/100x100"
+    }
+  },
+  "responseMsg": "请求成功",
+  "responseCode": 0,
+  "isSuccess": true
+}

@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2810E75B88D21CFDF872CE95230952A8 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32080EDF4A140F83C14811599E452019 /* PINDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		42CBEEB2E3E302471C1BEE8D0BA3262A /* Nullability.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBD3D43AFE3C86F09119009119E48B7 /* Nullability.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4363BEEDC67E88F85A5EDF9415FC0E32 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = 728F336EBE67D341149AE9860D0FC788 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A946D7065C7D2471F3AFA809908BBB1 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9973966016CD65783471DFBFFD25D1 /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94B90099BC8710090A95488E43FDBAE3 /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF728069B804817CDA4CE82A7F9BE1D /* PINDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9586256C1D60315FC6A1D41DE6B1F2D2 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A1044870553F159425276C418967B4D1 /* PINCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A9C680A094BCDFEA1BA8E6EFF757B942 /* PINCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8EBD66C927F2A27B32318185EF3FFD /* PINCache-dummy.m */; };
+		2810E75B88D21CFDF872CE95230952A8 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B683461C7AE08E2AE1B336B28CAEDF0C /* PINDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		42CBEEB2E3E302471C1BEE8D0BA3262A /* Nullability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E36BEB55E2F42064ABFBB2357A829E8 /* Nullability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4363BEEDC67E88F85A5EDF9415FC0E32 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A6AAB57BBBD1840678D562C97B02B6 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A946D7065C7D2471F3AFA809908BBB1 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C25F0914E431FA47D5701FF917065B69 /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94B90099BC8710090A95488E43FDBAE3 /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A9978DEEF0E1FE82E0BAF3488171DAB0 /* PINDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9586256C1D60315FC6A1D41DE6B1F2D2 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F67E65D3522AE8853FC98BAA11F9833 /* PINCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9C680A094BCDFEA1BA8E6EFF757B942 /* PINCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF750F6ED07494B5F7979CF45164964D /* PINCache-dummy.m */; };
 		C1135CE71B4E412C065C2297945D00C8 /* Pods-BMExport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605D608E27D6BA2BC5AFCC5F430817B /* Pods-BMExport-dummy.m */; };
-		DE9494744B5CB38D0C5E0CA34DA2DC43 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 119184F69D43BDFA454B341E82A5730D /* PINMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FD331FB5B20677A9092BD46192638A31 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 78146AAA6233C27840988D8C7E355150 /* PINCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE9494744B5CB38D0C5E0CA34DA2DC43 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF89BBB2B66BA08F28BC2AEB9AB187B /* PINMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FD331FB5B20677A9092BD46192638A31 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5DEDF781A2E0FF968A9A9C4CB083D7 /* PINCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +30,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06B733C980AC491E4113021C969BD687 /* PINCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINCache.debug.xcconfig; sourceTree = "<group>"; };
+		0E36BEB55E2F42064ABFBB2357A829E8 /* Nullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nullability.h; path = PINCache/Nullability.h; sourceTree = "<group>"; };
 		10BE0C5E59F4DF401CB3AC947E287911 /* Pods-BMExport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMExport.release.xcconfig"; sourceTree = "<group>"; };
-		119184F69D43BDFA454B341E82A5730D /* PINMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINMemoryCache.m; path = PINCache/PINMemoryCache.m; sourceTree = "<group>"; };
 		2AC7BB17CE5A4ED88E68FC3A4FFC6EFE /* Pods-BMExport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMExport.debug.xcconfig"; sourceTree = "<group>"; };
-		32080EDF4A140F83C14811599E452019 /* PINDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINDiskCache.m; path = PINCache/PINDiskCache.m; sourceTree = "<group>"; };
+		2F67E65D3522AE8853FC98BAA11F9833 /* PINCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINCache.m; path = PINCache/PINCache.m; sourceTree = "<group>"; };
+		3F5DEDF781A2E0FF968A9A9C4CB083D7 /* PINCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCache.h; path = PINCache/PINCache.h; sourceTree = "<group>"; };
 		4605D608E27D6BA2BC5AFCC5F430817B /* Pods-BMExport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMExport-dummy.m"; sourceTree = "<group>"; };
-		4A8EBD66C927F2A27B32318185EF3FFD /* PINCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PINCache-dummy.m"; sourceTree = "<group>"; };
 		50D9763A97583845ABABE1E68FA518D7 /* libPods-BMExport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BMExport.a"; path = "libPods-BMExport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521AB730E4A3E487FBF525904AA5098F /* PINCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINCache-prefix.pch"; sourceTree = "<group>"; };
 		6320170E5A5A268B11CAE15D4EF6A9E3 /* libPINCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPINCache.a; path = libPINCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		728F336EBE67D341149AE9860D0FC788 /* PINCacheObjectSubscripting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCacheObjectSubscripting.h; path = PINCache/PINCacheObjectSubscripting.h; sourceTree = "<group>"; };
-		78146AAA6233C27840988D8C7E355150 /* PINCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCache.h; path = PINCache/PINCache.h; sourceTree = "<group>"; };
-		8E9973966016CD65783471DFBFFD25D1 /* PINMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINMemoryCache.h; path = PINCache/PINMemoryCache.h; sourceTree = "<group>"; };
-		8ECB130B987F6DF88FE528717D4852C2 /* PINCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINCache.xcconfig; sourceTree = "<group>"; };
+		77A6AAB57BBBD1840678D562C97B02B6 /* PINCacheObjectSubscripting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCacheObjectSubscripting.h; path = PINCache/PINCacheObjectSubscripting.h; sourceTree = "<group>"; };
+		7EF89BBB2B66BA08F28BC2AEB9AB187B /* PINMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINMemoryCache.m; path = PINCache/PINMemoryCache.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1044870553F159425276C418967B4D1 /* PINCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINCache.m; path = PINCache/PINCache.m; sourceTree = "<group>"; };
-		ACF728069B804817CDA4CE82A7F9BE1D /* PINDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINDiskCache.h; path = PINCache/PINDiskCache.h; sourceTree = "<group>"; };
+		A9978DEEF0E1FE82E0BAF3488171DAB0 /* PINDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINDiskCache.h; path = PINCache/PINDiskCache.h; sourceTree = "<group>"; };
 		ADACA1BF8DBD86B473C756863826A8B9 /* Pods-BMExport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BMExport-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D184319B851D1BBDB5F6C1A2842FFE57 /* PINCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINCache-prefix.pch"; sourceTree = "<group>"; };
+		AF136391DFA953C261988F64A3093494 /* PINCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINCache.release.xcconfig; sourceTree = "<group>"; };
+		B683461C7AE08E2AE1B336B28CAEDF0C /* PINDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINDiskCache.m; path = PINCache/PINDiskCache.m; sourceTree = "<group>"; };
+		BF750F6ED07494B5F7979CF45164964D /* PINCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PINCache-dummy.m"; sourceTree = "<group>"; };
+		C25F0914E431FA47D5701FF917065B69 /* PINMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINMemoryCache.h; path = PINCache/PINMemoryCache.h; sourceTree = "<group>"; };
 		FAA83E6D30480831C0816F51F3DDA4E2 /* Pods-BMExport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMExport-acknowledgements.plist"; sourceTree = "<group>"; };
-		FDBD3D43AFE3C86F09119009119E48B7 /* Nullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nullability.h; path = PINCache/Nullability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,20 +73,9 @@
 		2111BD2BE86FFE11DC5478EFD2C966C5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCBD7192362A4C7E08B7145DCFA1A9AA /* PINCache */,
+				EDCAAAFFA04AB40C5158011C5640BD35 /* PINCache */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		3FDAAFFA9C124C8DE4CB0E34E1969082 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8ECB130B987F6DF88FE528717D4852C2 /* PINCache.xcconfig */,
-				4A8EBD66C927F2A27B32318185EF3FFD /* PINCache-dummy.m */,
-				D184319B851D1BBDB5F6C1A2842FFE57 /* PINCache-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PINCache";
 			sourceTree = "<group>";
 		};
 		5B795D9D9463AAD5DF20790EE1980F73 /* Pods-BMExport */ = {
@@ -101,29 +91,24 @@
 			path = "Target Support Files/Pods-BMExport";
 			sourceTree = "<group>";
 		};
+		9A35C7F8DC3D3CFD2C9E4F65530710C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF750F6ED07494B5F7979CF45164964D /* PINCache-dummy.m */,
+				521AB730E4A3E487FBF525904AA5098F /* PINCache-prefix.pch */,
+				06B733C980AC491E4113021C969BD687 /* PINCache.debug.xcconfig */,
+				AF136391DFA953C261988F64A3093494 /* PINCache.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PINCache";
+			sourceTree = "<group>";
+		};
 		A810F9303EF1E6B0B2E0229D04F2B21D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				5B795D9D9463AAD5DF20790EE1980F73 /* Pods-BMExport */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CCBD7192362A4C7E08B7145DCFA1A9AA /* PINCache */ = {
-			isa = PBXGroup;
-			children = (
-				FDBD3D43AFE3C86F09119009119E48B7 /* Nullability.h */,
-				78146AAA6233C27840988D8C7E355150 /* PINCache.h */,
-				A1044870553F159425276C418967B4D1 /* PINCache.m */,
-				728F336EBE67D341149AE9860D0FC788 /* PINCacheObjectSubscripting.h */,
-				ACF728069B804817CDA4CE82A7F9BE1D /* PINDiskCache.h */,
-				32080EDF4A140F83C14811599E452019 /* PINDiskCache.m */,
-				8E9973966016CD65783471DFBFFD25D1 /* PINMemoryCache.h */,
-				119184F69D43BDFA454B341E82A5730D /* PINMemoryCache.m */,
-				3FDAAFFA9C124C8DE4CB0E34E1969082 /* Support Files */,
-			);
-			name = PINCache;
-			path = PINCache;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -142,6 +127,23 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDCAAAFFA04AB40C5158011C5640BD35 /* PINCache */ = {
+			isa = PBXGroup;
+			children = (
+				0E36BEB55E2F42064ABFBB2357A829E8 /* Nullability.h */,
+				3F5DEDF781A2E0FF968A9A9C4CB083D7 /* PINCache.h */,
+				2F67E65D3522AE8853FC98BAA11F9833 /* PINCache.m */,
+				77A6AAB57BBBD1840678D562C97B02B6 /* PINCacheObjectSubscripting.h */,
+				A9978DEEF0E1FE82E0BAF3488171DAB0 /* PINDiskCache.h */,
+				B683461C7AE08E2AE1B336B28CAEDF0C /* PINDiskCache.m */,
+				C25F0914E431FA47D5701FF917065B69 /* PINMemoryCache.h */,
+				7EF89BBB2B66BA08F28BC2AEB9AB187B /* PINMemoryCache.m */,
+				9A35C7F8DC3D3CFD2C9E4F65530710C9 /* Support Files */,
+			);
+			name = PINCache;
+			path = PINCache;
 			sourceTree = "<group>";
 		};
 		F6C1C8CEE4B71C09B8B6FC5BE4614685 /* Products */ = {
@@ -223,7 +225,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -333,9 +335,33 @@
 			};
 			name = Release;
 		};
-		382EEE3A5B9BA3A0AF3373482B32A7D8 /* Debug */ = {
+		6095973444DA8655AC694B77A5E73BC6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ECB130B987F6DF88FE528717D4852C2 /* PINCache.xcconfig */;
+			baseConfigurationReference = AF136391DFA953C261988F64A3093494 /* PINCache.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/PINCache/PINCache-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PINCache;
+				PRODUCT_NAME = PINCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		64ABCBE5F5B6B0EE62AB248B48145CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B733C980AC491E4113021C969BD687 /* PINCache.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";
@@ -467,30 +493,6 @@
 			};
 			name = Debug;
 		};
-		DAA0CBFBB6A2CB3D07B11D62E2439C88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ECB130B987F6DF88FE528717D4852C2 /* PINCache.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/PINCache/PINCache-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = PINCache;
-				PRODUCT_NAME = PINCache;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -515,8 +517,8 @@
 		B46F251ED13F675B0F6DB348E0A990C5 /* Build configuration list for PBXNativeTarget "PINCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				382EEE3A5B9BA3A0AF3373482B32A7D8 /* Debug */,
-				DAA0CBFBB6A2CB3D07B11D62E2439C88 /* Release */,
+				64ABCBE5F5B6B0EE62AB248B48145CCC /* Debug */,
+				6095973444DA8655AC694B77A5E73BC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

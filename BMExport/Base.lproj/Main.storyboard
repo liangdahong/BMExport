@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -790,19 +790,24 @@
                                 </textFieldCell>
                             </textField>
                             <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Nar-Ay-2hw">
-                                <rect key="frame" x="707" y="26" width="133" height="25"/>
+                                <rect key="frame" x="707" y="146" width="133" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="7fj-w7-NCU"/>
                                     <constraint firstAttribute="height" constant="19" id="fa2-xV-asZ"/>
                                 </constraints>
-                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="faX-qa-Ncs">
+                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Objective-C - iOS" drawsBackground="YES" buttonBordered="NO" completes="NO" numberOfVisibleItems="10" id="faX-qa-Ncs">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <objectValues>
                                         <string>Objective-C - iOS</string>
+                                        <string>Swift Class</string>
+                                        <string>Swift Struct</string>
                                     </objectValues>
                                 </comboBoxCell>
+                                <connections>
+                                    <action selector="comboBox:" target="XfG-lQ-9wD" id="p76-Ly-6Ww"/>
+                                </connections>
                             </comboBox>
                         </subviews>
                         <constraints>
@@ -823,20 +828,21 @@
                             <constraint firstItem="icQ-57-GN1" firstAttribute="centerX" secondItem="Rdu-id-5ay" secondAttribute="centerX" id="oqu-hH-xsk"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="top" secondItem="xXI-VZ-Hnz" secondAttribute="bottom" constant="8" symbolic="YES" id="rxn-bT-v45"/>
                             <constraint firstItem="Rdu-id-5ay" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="60" id="tBP-e2-LAv"/>
-                            <constraint firstAttribute="bottom" secondItem="Nar-Ay-2hw" secondAttribute="bottom" constant="30" id="ueH-vy-oeY"/>
+                            <constraint firstAttribute="bottom" secondItem="Nar-Ay-2hw" secondAttribute="bottom" constant="150" id="ueH-vy-oeY"/>
                             <constraint firstItem="5iK-KN-sTN" firstAttribute="width" secondItem="Rdu-id-5ay" secondAttribute="width" multiplier="2:1" id="vwz-oU-vs1"/>
                             <constraint firstAttribute="bottom" secondItem="Rdu-id-5ay" secondAttribute="bottom" constant="30" id="yi8-TX-IBv"/>
                             <constraint firstItem="Rdu-id-5ay" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="z7t-5U-agW"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="comboBox" destination="Nar-Ay-2hw" id="Tez-2Y-I4X"/>
                         <outlet property="jsonTextView" destination="fms-EC-1d6" id="h03-LH-n0Q"/>
                         <outlet property="modelTextView" destination="67C-WO-tSV" id="AvX-lG-jZa"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1431" y="-622"/>
+            <point key="canvasLocation" x="-1299" y="-644"/>
         </scene>
     </scenes>
 </document>

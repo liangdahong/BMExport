@@ -1,0 +1,900 @@
+{
+  "responseMsg": "请求成功",
+  "productList": [
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "mjs",
+        "activityCode": "630000198801036788",
+        "activityMarkType": "ADDED_ON_ITEM",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "coupon",
+        "activityCode": "230000200904027943",
+        "activityMarkType": "ADD_ON_ITEM",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "coupon",
+        "activityCode": "340000198203141474",
+        "activityMarkType": "ADD_ON_ITEM",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "coupon",
+        "activityCode": "650000199403207279",
+        "activityMarkType": "NONE_ACTIVITY OFF_SELL",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "mjs",
+        "activityCode": "140000198304111285",
+        "activityMarkType": "NONE_ACTIVITY OFF_SELL",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "item",
+        "activityCode": "540000198208215855",
+        "activityMarkType": "NONE_ACTIVITY OFF_SELL",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "item",
+        "activityCode": "440000200409065255",
+        "activityMarkType": "ADD_ON_ITEM",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    },
+    {
+      "sort": 1,
+      "activityInfo": {
+        "activityType": "item",
+        "activityCode": "440000198311265486",
+        "activityMarkType": "ADDED_ON_ITEM",
+        "activityDesc": "说明",
+        "activitySName": "活动简称",
+        "activityTypeName": "活动类型"
+      },
+      "buyItems": [
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        },
+        {
+          "marketPrice": 9999,
+          "state": "tick",
+          "productCode": "rfjnjbuutd",
+          "num": 9999,
+          "productType": "ITEM",
+          "imageVo": {
+            "picUrl": "http://dummyimage.com/100x100",
+            "height": 100,
+            "width": 100
+          },
+          "status": "on",
+          "memberPrice": 19999,
+          "productName": "亮白薰衣草香洗衣液亮白薰衣草香洗衣液亮白薰衣草香洗衣液",
+          "productId": "shcto"
+        }
+      ]
+    }
+  ],
+  "responseCode": 0,
+  "totalPriceInfo": {
+    "totalMarketPrice": 1999999,
+    "totalActivityPrice": 9999,
+    "totalPrice": 9999
+  },
+  "isSuccess": true
+}
