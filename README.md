@@ -12,17 +12,7 @@
 - 属性对齐
 - 目前解析 JSON 是独立模块，所以支持其他语言也很简单，只需要编写相关其他语言的特性代码即可。
 - 支持 swift 只需如下代码即可：
-```OC
-+ (NSString *)_modelCodeWithModelInfoModel:(BMModelInfoModel *)modelInfoModel
-                                 modelName:(NSString *)modelName
-                            swiftModelType:(SwiftModelType)type
-                                       add:(BOOL)add
-                                 alignment:(BOOL)alignment {
-    if (modelInfoModel.propertyInfoArray.count == 0) {
-        return @"";
-    }
-    NSMutableArray <NSString *> *propertyArray = @[].mutableCopy;
-    [modelInfoModel.propertyInfoArray enumerateObjectsUsingBlock:^(BMPropertyInfo * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+```OBJC
         switch (obj.propertyType) {
             case BMPropertyTypeInt:
                 [propertyArray addObject:[NSString stringWithFormat:@"var %@ = 0",
@@ -56,26 +46,45 @@
             default:
                 break;
         }
-    }];
-    NSMutableString *modelStr = @"".mutableCopy;
-    [modelStr appendFormat:@"%@ %@%u {\n",
-     type  == SwiftModelTypeClass ? @"class" : @"struct",
-     modelName,
-     arc4random()];
-    
-    [propertyArray enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (add) {
-            [modelStr appendString:@"    /// <#Description#>\n"];
-        }
-        [modelStr appendString:@"    "];
-        [modelStr appendString:obj];
-        [modelStr appendString:@"\n"];
-    }];
-    [modelStr appendString:@"\n}"];
-    return modelStr;
-}
 ```
 
+- 支持 Objective-C 只需如下代码即可：
+
+```OBJC
+        switch (obj.propertyType) {
+            case BMPropertyTypeInt:
+                [propertyArray addObject:[NSString stringWithFormat:@"@property (nonatomic, assign) NSInteger %@;",
+                                          obj.propertyName]];
+                break;
+                
+            case BMPropertyTypeBoolean:
+                [propertyArray addObject:[NSString stringWithFormat:@"@property (nonatomic, assign) BOOL %@;",
+                                          obj.propertyName]];
+                break;
+                
+            case BMPropertyTypeString:
+                [propertyArray addObject:[NSString stringWithFormat:@"@property (nonatomic, copy) NSString *%@;",
+                                          obj.propertyName]];
+                break;
+                
+            case BMPropertyTypeArray:
+                [propertyArray addObject:[NSString stringWithFormat:@"@property (nonatomic, copy) NSArray <<#type#> *> *%@;",
+                                          obj.propertyName]];
+                break;
+                
+            case BMPropertyTypeDictionary:
+                [propertyArray addObject:[NSString stringWithFormat:@"@property (nonatomic, strong) <#type#> *%@;",
+                                          obj.propertyName]];
+                break;
+                
+            case BMPropertyTypeObject:
+                [propertyArray addObject:[NSString stringWithFormat:@"@property (nonatomic, strong) <#type#> *%@;",
+                                          obj.propertyName]];
+                break;
+            default:
+                break;
+        }
+```
 
 # 联系
 - 欢迎 [issues](https://github.com/liangdahong/BMExport/issues) 和 [PR](https://github.com/liangdahong/BMExport/pulls)
