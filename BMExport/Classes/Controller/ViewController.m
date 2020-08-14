@@ -45,9 +45,11 @@
 
 - (void)textViewDidChangeSelection:(NSNotification *)notification {
     __block NSMutableString *string = @"".mutableCopy;
-    NSError *error = [BMModelManager  propertyStringWithJson:self.jsonTextView.string clasName:@"RootClass" block:^(NSString *str) {
+    NSError *error = [BMModelManager propertyStringWithJson:self.jsonTextView.string
+                                                   modelName:@"ModelName"
+                                                       block:^(NSString *str) {
         [string appendString:@"\n\n\n"];
-        [string appendString:str];        
+        [string appendString:str];
         self.modelTextView.string = string;
     } add:_add alignment:_alignment];
     if (error) {
