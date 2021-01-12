@@ -5,11 +5,11 @@
 <img width="80%" src="https://user-images.githubusercontent.com/12118567/90214199-58ead880-de2a-11ea-814a-ff87765d4bb6.gif"/>
 
 # 当前功能
-- JSON -> Model 属性代码
-- 添加注释占位
-- 属性对齐
-- 目前解析 JSON 是独立模块，所以支持其他语言也很简单，只需要编写相关其他语言的特性代码即可。
-- 支持 swift 只需如下代码即可：
+* [x] JSON -> Model 属性代码
+* [x] 添加注释占位
+* [x] 属性对齐
+* [x] 目前解析 JSON 是独立模块，所以支持其他语言也很简单，只需要编写相关其他语言的特性代码即可。
+* [x] 支持 Swift 只需如下代码即可：
 ![image](https://user-images.githubusercontent.com/12118567/90214567-82f0ca80-de2b-11ea-8265-c4b08817674e.png)
 ```OBJC
         switch (obj.propertyType) {
@@ -88,10 +88,11 @@
 # 联系
 - 欢迎 [issues](https://github.com/liangdahong/BMExport/issues) 和 [PR](https://github.com/liangdahong/BMExport/pulls)
 - 也可以添加微信<img width="20%" src="https://user-images.githubusercontent.com/12118567/86319172-72fb9d80-bc66-11ea-8c6e-8127f9e5535f.jpg"/> 进微信交流群。
+
 # 计划
-- 考虑支持 Swift 的相关 Model 解析框架，如：HandyJSON，ObjectMapper。
-- 支持自动生成 `Model` 文件；
-- 按属性类型排序等；
-- 尝试实现网页版工具；
-- 支持其他语言；
-- 等。
+* [ ] 考虑支持 Swift 的相关 Model 解析框架，如：HandyJSON，ObjectMapper。
+* [ ] 支持自动生成 `Model` 文件；
+* [ ] 按属性类型排序等；
+* [ ] 尝试实现网页版工具；
+* [ ] 支持其他语言；
+* [ ] 等。
